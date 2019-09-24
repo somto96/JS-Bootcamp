@@ -1,4 +1,4 @@
-let gradeCalc = function(studentScore, totalScore = 100){
+const gradeCalc = function(studentScore, totalScore = 100){
     let scorePercent = (studentScore/totalScore) * 100
     if (scorePercent >= 90 && scorePercent <= 100){
         console.log(`You have an A (${scorePercent}%)`)
@@ -15,5 +15,5 @@ let gradeCalc = function(studentScore, totalScore = 100){
     return scorePercent
 }
 
-let myScore = gradeCalc(15, 20)
+const myScore = gradeCalc(15, 20)
 // console.log(myScore)
