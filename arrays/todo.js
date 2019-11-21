@@ -1,8 +1,10 @@
 let todos = ["Read", "Cook", "Shop", "Play", "Rest"]
 
-console.log(todos.splice(2,1))
-console.log(todos.push("Beach stuff"))
-console.log(todos.shift())
+let test = todos.splice(2,1)
+
+console.log(test)
+// console.log(todos.push("Beach stuff"))
+// console.log(todos.shift())
 
 console.log(`You have ${todos.length} todos`)
 // console.log(`Todos: ${todos[0]}\nTodos: ${todos[todos.length - 2]}`)
